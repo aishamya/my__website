@@ -301,6 +301,6 @@ export const VISION_STATEMENT =
 
 export const CONTACT_INFO = {
   email: 'aishamyaugowda@gmail.com',
-  linkedin: 'https://www.linkedin.com/in/aishamya-u-a24341b384/',
+  linkedin: 'https://www.linkedin.com/in/aishamyau/',
   github: 'https://github.com/aishamya',
 };
