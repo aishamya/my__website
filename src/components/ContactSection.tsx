@@ -50,6 +50,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onShowToast }) =
                 </span>
                 <span className="text-[11px] text-emerald-400 font-mono">PRIMARY</span>
               </div>
+
               <a
                 href={`mailto:${CONTACT_INFO.email}`}
                 className="text-sm sm:text-base font-mono text-slate-100 group-hover:text-sky-300 break-all transition-colors block mt-1"
@@ -66,14 +67,17 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onShowToast }) =
               >
                 {copiedEmail ? (
                   <>
-                    <Check className="w-3.5 h-3.5 text-emerald-400" /> Copied
+                    <Check className="w-3.5 h-3.5 text-emerald-400" />
+                    Copied
                   </>
                 ) : (
                   <>
-                    <Copy className="w-3.5 h-3.5" /> Copy Email
+                    <Copy className="w-3.5 h-3.5" />
+                    Copy Email
                   </>
                 )}
               </button>
+
               <a
                 href={`mailto:${CONTACT_INFO.email}`}
                 className="p-1 rounded text-slate-400 hover:text-sky-300 transition-colors"
@@ -98,8 +102,10 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onShowToast }) =
                   <Linkedin className="w-4 h-4 text-sky-400" />
                   LinkedIn
                 </span>
+
                 <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-sky-300 transition-colors" />
               </div>
+
               <span className="text-xs sm:text-sm font-mono text-slate-300 group-hover:text-white break-all transition-colors block mt-1">
                 {CONTACT_INFO.linkedin}
               </span>
@@ -125,8 +131,10 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onShowToast }) =
                   <Github className="w-4 h-4 text-sky-400" />
                   GitHub
                 </span>
+
                 <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-sky-300 transition-colors" />
               </div>
+
               <span className="text-xs sm:text-sm font-mono text-slate-300 group-hover:text-white break-all transition-colors block mt-1">
                 {CONTACT_INFO.github}
               </span>
@@ -140,7 +148,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onShowToast }) =
 
         </div>
 
-        {/* Math formula watermark & terminal footer line */}
+        {/* Footer */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-8 border-t border-sky-400/10 text-xs font-mono text-slate-400">
           <div className="text-slate-400">
             © 2025 Aishamya U. All rights reserved. Terminal v2.4.1
